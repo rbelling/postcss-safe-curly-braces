@@ -7,6 +7,7 @@
     "css",
     "postcss-plugin",
     "handlebars",
+    "hbs",
     "vuejs",
     "vue.js"
   ],
