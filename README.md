@@ -19,7 +19,7 @@ This is useful when inlining css into a Handlebars or a Vue.js template, as back
 ## Usage
 
 ```js
-postcss([ require('postcss-separate-curly-braces') ])
+postcss([ require('postcss-safe-curly-braces') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
