@@ -1,6 +1,6 @@
 # PostCSS Space Between Rules [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin that adds a white space after each rule. 
+[PostCSS] plugin that adds a white space between closing curly braces. 
 
 This is useful when inlining css into a Handlebars or a Vue.js template, as back-to-back curly braces can break the engine.
 
