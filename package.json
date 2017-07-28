@@ -1,0 +1,35 @@
+{
+  "name": "postcss-separate-curly-braces",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that separates back-to-back curly braces `{{` `}}` with a whitespace",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "handlebars"
+  ],
+  "author": "Riccardo Bellingeri <rbellingeri@gilt.com>",
+  "license": "MIT",
+  "repository": "rbellingeri@gilt.com/postcss-separate-curly-braces",
+  "bugs": {
+    "url": "https://github.com/rbellingeri@gilt.com/postcss-separate-curly-braces/issues"
+  },
+  "homepage": "https://github.com/rbellingeri@gilt.com/postcss-separate-curly-braces",
+  "dependencies": {
+    "postcss": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es6",
+    "env": {
+      "jest": true
+    }
+  }
+}
