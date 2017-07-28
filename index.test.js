@@ -10,6 +10,8 @@ function run(input, output, opts) {
         });
 }
 
-it('does something', () => {
-    return run('a{color:red;}', 'a{color:red;}', { });
+it('Should add a white space before the end of an AtRule, unless it is spaced already', () => {
+    const src =     '@media(hover:hover){c{color: green;}}\n@media(hover:coarse){b{color: red;}   }@media(hover:coarse){d{color: blue;}\n}@media(hover:none){f{color: teal;} }';
+    const target =  '@media(hover:hover){c{color: green;} }\n@media(hover:coarse){b{color: red;}   }@media(hover:coarse){d{color: blue;}\n}@media(hover:none){f{color: teal;} }'
+    return run(src, target, {});
 });

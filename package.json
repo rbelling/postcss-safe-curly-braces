@@ -1,14 +1,16 @@
 {
-  "name": "postcss-separate-curly-braces",
-  "version": "0.0.0",
-  "description": "PostCSS plugin that separates back-to-back curly braces `{{` `}}` with a whitespace",
+  "name": "postcss-safe-curly-braces",
+  "version": "0.1.0",
+  "description": "PostCSS plugin that separates back-to-back closed curly braces `}}`, that might break certain templating engines like Handlebars or Vue.js",
   "keywords": [
     "postcss",
     "css",
     "postcss-plugin",
-    "handlebars"
+    "handlebars",
+    "vuejs",
+    "vue.js"
   ],
-  "author": "Riccardo Bellingeri <rbellingeri@gilt.com>",
+  "author": "Riccardo Bellingeri <riccardo.bellingeri@gmail.com>",
   "license": "MIT",
   "repository": "rbellingeri@gilt.com/postcss-separate-curly-braces",
   "bugs": {
@@ -19,15 +21,15 @@
     "postcss": "latest"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-postcss": "^2.0.2",
-    "jest": "^20.0.0"
+    "eslint": "3.x.x",
+    "eslint-config-postcss": "2.x.x",
+    "jest": "20.x.x"
   },
   "scripts": {
     "test": "jest && eslint *.js"
   },
   "eslintConfig": {
-    "extends": "eslint-config-postcss/es6",
+    "extends": "eslint-config-postcss",
     "env": {
       "jest": true
     }
