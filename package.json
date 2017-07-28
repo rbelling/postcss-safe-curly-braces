@@ -13,11 +13,11 @@
   ],
   "author": "Riccardo Bellingeri <riccardo.bellingeri@gmail.com>",
   "license": "MIT",
-  "repository": "rbellingeri@gilt.com/postcss-separate-curly-braces",
+  "repository": "https://github.com/rbelling/postcss-safe-curly-braces",
   "bugs": {
-    "url": "https://github.com/rbellingeri@gilt.com/postcss-separate-curly-braces/issues"
+    "url": "https://github.com/rbelling/postcss-safe-curly-braces/issues"
   },
-  "homepage": "https://github.com/rbellingeri@gilt.com/postcss-separate-curly-braces",
+  "homepage": "https://github.com/rbelling/postcss-safe-curly-braces",
   "dependencies": {
     "postcss": "latest"
   },
