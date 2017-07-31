@@ -1,6 +1,6 @@
 {
   "name": "postcss-safe-curly-braces",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "PostCSS plugin that separates back-to-back closed curly braces `}}`, that might break certain templating engines like Handlebars or Vue.js",
   "keywords": [
     "postcss",
