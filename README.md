@@ -2,7 +2,7 @@
 
 [PostCSS] plugin that adds a white space between closing curly braces. 
 
-This is useful when inlining css into a Handlebars or a Vue.js template, as back-to-back curly braces can break the template engine.
+This is useful when inlining css into a Handlebars template.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/rbellingeri@gilt.com/postcss-separate-curly-braces.svg
